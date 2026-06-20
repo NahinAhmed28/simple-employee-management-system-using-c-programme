@@ -1,33 +1,30 @@
 # Simple Employee Management System Using C Programme
 
-Simple Employee Management System is a C programming project for managing employee records through a console-based interface. It is designed as a practice project for core C syntax, menu handling, record storage, and basic CRUD operations.
+Simple Employee Management System is a C console application for managing employee records.
 
-## Project Details
+## Features
 
-- Repository: `NahinAhmed28/simple-employee-management-system-using-c-programme`
-- Default branch: `main`
-- Visibility: public
-- Project type: C console application
-- Main focus: employee record management
+- Console-based employee-management menu
+- Add, list, search, update, and delete style workflows
+- Record storage using C data structures and/or files
+- Practice project for procedural programming
+
+## Modules
+
+- Menu module: terminal prompts and action selection
+- Employee module: employee fields and record operations
+- Storage module: file handling or in-memory record arrays
+- Utility module: input validation, formatting, and search helpers
+
+## System Architecture
+
+The program uses a procedural architecture. A terminal menu drives the workflow, employee functions manage record operations, and storage helpers read/write data when persistence is implemented. The system runs locally as a compiled executable without external services.
 
 ## Getting Started
-
-Clone the repository and compile the C source file with a local compiler.
 
 ```bash
 git clone https://github.com/NahinAhmed28/simple-employee-management-system-using-c-programme.git
 cd simple-employee-management-system-using-c-programme
-```
-
-Example compile command:
-
-```bash
 gcc *.c -o employee-management
 ./employee-management
 ```
-
-On Windows, run the generated executable from your terminal or IDE.
-
-## Notes
-
-Keep this README updated with the exact compile command, supported operations, and any data files required by the program.
